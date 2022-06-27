@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -R1 | find . -maxdepth 1  -empty | cut -d '/' -f 2
+ls -1aR | find . -maxdepth 1  -empty | cut -d '/' -f 2
